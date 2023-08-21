@@ -1,0 +1,41 @@
+Directory: .
+  - ./requirements.txt
+  - ./db.sqlite3
+  - ./directory_structure.txt
+  - ./manage.py
+  - ./directory_dtructure.py
+Directory: core
+  - core/asgi.py
+  - core/__init__.py
+  - core/settings.py
+  - core/urls.py
+  - core/wsgi.py
+Directory: core/__pycache__
+  - core/__pycache__/settings.cpython-311.pyc
+  - core/__pycache__/urls.cpython-311.pyc
+  - core/__pycache__/wsgi.cpython-311.pyc
+  - core/__pycache__/__init__.cpython-311.pyc
+Directory: chat
+  - chat/models.py
+  - chat/__init__.py
+  - chat/apps.py
+  - chat/admin.py
+  - chat/tests.py
+  - chat/urls.py
+  - chat/views.py
+Directory: chat/migrations
+  - chat/migrations/__init__.py
+Directory: chat/migrations/__pycache__
+  - chat/migrations/__pycache__/__init__.cpython-311.pyc
+Directory: chat/__pycache__
+  - chat/__pycache__/views.cpython-311.pyc
+  - chat/__pycache__/urls.cpython-311.pyc
+  - chat/__pycache__/models.cpython-311.pyc
+  - chat/__pycache__/admin.cpython-311.pyc
+  - chat/__pycache__/apps.cpython-311.pyc
+  - chat/__pycache__/__init__.cpython-311.pyc
+Directory: chat/templates
+Directory: chat/templates/chat
+  - chat/templates/chat/index.html
+Directory: templates
+  - templates/base.html
